@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  padding: 0 50px;
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2c3135;
+}
+
+/* THEME */
+.white {
+  background-color: white;
+  height: auto;
+}
+
+.white-light {
+  background-color: rgb(228, 224, 216);
+}
+
+.white-lighter {
+  background-color: rgb(245, 242, 236);
+  color: black;
+}
+
+.dark {
+  background-color: #212529;
+  height: auto;
+  color: white;
+}
+
+.dark-light {
+  background-color: #2c3135;
+}
+
+/* MAIN */
+
+.container {
+  /* background-color: #2c3135; */
+  width: 75%;
+  margin: 70px auto;
+  height: auto;
+  border-radius: 30px;
+  padding: 50px;
+}
+
+.leagues {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.leagues h1 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.matches {
+  /* background-color: #212529; */
+  width: 70%;
+  height: 50px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  /* color: white; */
+}
+
+span {
+  text-align: center;
+  margin: 0 50px;
+  color: #4e5255;
+}
+
+.theme-btn {
+  border: none;
+  background-color: inherit;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+.fas {
+  font-size: 30px;
+}
+
+/* TEAMS */
+
+.teams-names {
+  width: 75%;
+  margin: 70px auto;
+  height: auto;
+  border-radius: 30px;
+  padding: 50px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team {
+  align-items: center;
+  font-size: 25px;
+}
+
+.score {
+  display: flex;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.team img {
+  height: 100px;
+}
+
+.status {
+  text-align: center;
+}
